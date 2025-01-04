@@ -1,0 +1,17 @@
+{
+  "name": "republican-bot",
+  "version": "1.0.0",
+  "description": "A chatbot to simulate conversations with a Republican voter.",
+  "main": "api/chat.js",
+  "type": "module",
+  "scripts": {
+    "start": "node api/chat.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "license": "MIT"
+}
